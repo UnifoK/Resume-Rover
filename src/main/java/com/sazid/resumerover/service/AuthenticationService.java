@@ -34,7 +34,7 @@ public class AuthenticationService {
                 .build();
     }
 
-    // NEW LOGIN METHOD
+    // NEW LOGIN METHOD just a follow up
     public AuthenticationResponse login(LoginRequest request) {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
